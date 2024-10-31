@@ -8,7 +8,7 @@ Learn Solidity basics via ERC20 smart contracts.
 // MyERC20 version 0.0.1
 
 pragma solidity ^0.8.20;
-import {ERC20} from “./ERC20.sol”;
+import {ERC20} from "./ERC20.sol";
 
 contract MyERC20 is ERC20 {
     uint256 public _initialSupply = 1000000 * (10**18);
@@ -30,7 +30,7 @@ contract MyERC20 is ERC20 {
 // MyERC20 version 0.0.2
 
 pragma solidity ^0.8.20;
-import {ERC20} from “./ERC20.sol”;
+import {ERC20} from "./ERC20.sol";
 
 contract MyERC20 is ERC20 {
     uint256 public _initialSupply = 1000000 * (10**18);
